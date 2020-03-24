@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://a.cdn-hotels.com/gdcs/production174/d1134/cdc31084-ddb5-42ba-9d64-9caeca0fd4f3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header .p {
+    background-color: rgba(0, 0, 0, 0.849);
+    height: 30%;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 35%;
+}
+
+header .p p {
+    font-size: 3.9em;
+    color: rgba(255, 255, 255, 0.925);
+    text-align: center;
+    padding: 1.35em 0;
+}
+
+.section1 {
+    background-color: rgb(235, 221, 158);
+    width: 100%;
+    height: 30vh;
+}
+
+.section1 h1,
+p {
+    color: black;
+    text-align: center;
+}
+
+.section1 h1 {
+    font-size: 4em;
+    font-weight: 500;
+}
+
+.section1 p {
+    font-size: 1em;
+}
+
+.section2 {
+    width: 100%;
+    height: 70vh;
+    background-image: url(https://wanderersandwarriors.com/wp-content/uploads/2018/03/The-Incredible-Singapore-Light-Shows-1-1440x960.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section3 {
+    height: 35vh;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.section3 h1,
+p {
+    color: black;
+    text-align: center;
+}
+
+.section3 h1 {
+    margin-bottom: 0.3em;
+    font-size: 4em;
+    font-weight: 500;
+}
+
+.section3 p {
+    font-size: 1em;
+}
+
+footer {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://static.asiawebdirect.com/m/phuket/portals/www-singapore-com/homepage/nightlife/top10-nightlife/allParagraphs/00/top10Set/04/image/Gardens-by-the-Bay.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+footer h1,
+h2 {
+    font-size: 3.5em;
+    text-align: center;
+}
+
+footer h1 {
+    color: white;
+}
+
+footer h2 {
+    font-family: 'Marck Script', cursive;
+    color: rgb(255, 217, 0);
+}
